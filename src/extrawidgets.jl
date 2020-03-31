@@ -70,7 +70,7 @@ function PlayerWithTextbox(builder, index::Signal, range::AbstractUnitRange, id:
     function advance(widget)
         i = value(index) + value(direction)
         if !(i ∈ range)
-            push!(direction, 0)
+            push!(direction, -value(direction))
             i = clampindex(i)
         end
         push!(index, i)
