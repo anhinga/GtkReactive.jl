@@ -4,8 +4,11 @@ The `imshow` of ImageView package can be called on a 3D array. In this case, a t
 
 https://github.com/JuliaImages/ImageView.jl
 
-My goal here is to tweak the player, so that the movie does not stop when the end is reached, but instead starts playing in the opposite direction, and so on indefinitely. (The remaining issue at the moment is that the slider stops moving after one back-and-forth; the player
-is, however, playing indefinitely.)
+My goal here is to tweak the player, so that the movie does not stop when the end is reached, but instead starts playing in the opposite direction, and so on indefinitely. 
+
+The current version is semi-successful: the slider stops moving after one back-and-forth, 
+the player keeps playing, but is gradually slowing down, so there might be memory management
+issues or something like this. So, not quite done yet.
 
 # GtkReactive
 
