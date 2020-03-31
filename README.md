@@ -1,3 +1,11 @@
+# My personal fork of Julia GtkReactive
+
+The `imshow` of ImageView package can be called on a 3D array. In this case, a two-directional movie player is created:
+
+https://github.com/JuliaImages/ImageView.jl
+
+My goal here is to tweak the player, so that the movie does not stop when the end is reached, but instead starts playing in the opposite direction, and so on indefinitely.
+
 # GtkReactive
 
 [![Build Status](https://travis-ci.org/JuliaGizmos/GtkReactive.jl.svg?branch=master)](https://travis-ci.org/JuliaGizmos/GtkReactive.jl)
