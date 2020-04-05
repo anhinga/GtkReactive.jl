@@ -8,7 +8,7 @@ My goal here is to tweak the player, so that the movie does not stop when the en
 
 The current version is semi-successful: the slider stops moving after one back-and-forth, 
 the player keeps playing, but is gradually slowing down, so there might be memory management
-issues or something like this. So, not quite done yet."
+issues or something like this. So, "not quite done" yet.
 
 (Remarks: I was doing this on Windows, and Julia Gtk on Windows is suspect: 
 
