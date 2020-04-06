@@ -18,6 +18,17 @@ Also reducing frames-per-second rate (line 84 of the same `extrawidgets.jl` file
 
 If we return to this investigation, these remarks are something to keep in mind.)
 
+**Note:** What I want to do here is probably best achievable from the outside. E.g. the documentation for
+
+https://github.com/JuliaImages/ImageView.jl
+
+shows that one can control the animation programmatically:
+
+```julia
+guidict = imshow(img)
+push!(guidict["roi"]["slicedata"].signals[1], 5)
+```
+
 # GtkReactive
 
 [![Build Status](https://travis-ci.org/JuliaGizmos/GtkReactive.jl.svg?branch=master)](https://travis-ci.org/JuliaGizmos/GtkReactive.jl)
